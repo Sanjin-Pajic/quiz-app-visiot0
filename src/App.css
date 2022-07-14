@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-color: lightblue;
+}
+
+.appContainer {
+    width: 30%;
+    margin: 0 auto;
+    background-image: url(./img/bg.png);
+}
+
+

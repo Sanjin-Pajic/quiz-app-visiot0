@@ -1,0 +1,15 @@
+.btnContinueWrapper {
+    text-align: center;
+}
+
+#btnContinue {
+    width: 80%;
+    height: 60px;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-size: 13px;
+    color: white;
+    border: none;
+    background-color: #758CA0;
+    margin-top: 20%;
+}

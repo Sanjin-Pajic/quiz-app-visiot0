@@ -1,0 +1,41 @@
+.endgameScreen {
+  height: 84vh;
+  width: 99%;
+  background: rgba(65, 104, 129, 0.608);
+  position: relative;
+  top: 17%;
+  margin: 0 auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.string--congrats {
+  text-align: center;
+  padding-top: 15%;
+  font-family: Roboto;
+  color: white;
+}
+
+.string--finished {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-family: Roboto;
+    padding-top: 10%;
+}
+
+
+
+.successImgWrapper {
+  display: flex;
+}
+
+.successImg {
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 7%;
+}
+
+.btnResetWrapper {
+  text-align: center;
+  padding-top: 12%;
+}

@@ -1,0 +1,27 @@
+.header {
+  height: 16vh;
+  background: rgba(65, 104, 129, 0);
+}
+
+.navWrapper {
+  padding-top: 9%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.progressWrapper {
+  width: 65%;
+  margin-left: 0%;
+  background-color: red;
+  padding: 3px;
+  border-radius: 1000px;
+  background-color:rgba(65, 104, 129, 0.207);
+}
+
+.react-sweet-progress > .react-sweet-progress-symbol {
+    display: none;
+  }
+
+

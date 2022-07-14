@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.contentContainer {
+  height: 84vh;
+  width: 99%;
+  background: rgba(65, 104, 129, 0.608);
+  position: relative;
+  top: 17%;
+  margin: 0 auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.instructionText {
+  color: rgba(255, 255, 255, 0.875);
+  text-align: center;
+  padding-top: 10%;
+  font-size: 13px;
+  font-family: Lato;
+  word-spacing: 1.5px;
+  letter-spacing: 0.8px;
+  cursor:default;
+}
+
+.sentenceText {
+  color: white;
+  text-align: center;
+  padding-top: 8%;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: 0.8px;
+  cursor:default;
+}
+
+.wordGuess {
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  word-spacing: 15px;
+  padding-top: 12%;
+  font-size: 25px;
+  cursor:default;
+
+}
+
+.wordsWrapper {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.wordButton {
+  background-color: white;
+  color: rgb(41, 85, 113);
+  width: auto;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  padding: 28px 38px 28px 38px;
+  margin: 7px;
+  line-height: 0px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nonGuessable {
+  border-bottom: 3px dotted white;
+}
+
+/*
+#guessable {
+  line-height: 2;
+  border-radius: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  word-spacing: 2px;
+  background-color: white; 
+  color: rgb(41, 85, 113);
+}
+*/
+  
